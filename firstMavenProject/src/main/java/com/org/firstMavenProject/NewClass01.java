@@ -5,7 +5,7 @@ public class NewClass01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//New class added to push code back
-		System.out.println("Hi team, updated my message");
+		System.out.println("Hi team, updated my message, new branch created");
 		
 		//Top-level right click, select maven and click on update project
 		//Right click, properties, build path, add variable and select M2_Repo
