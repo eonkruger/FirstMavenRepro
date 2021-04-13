@@ -10,7 +10,6 @@ public class NewClass01 {
 		//Top-level right click, select maven and click on update project
 		//Right click, properties, build path, add variable and select M2_Repo
 		//Commit changes to local repository then push to remote
-		//Top-level right click, select teams, click on commit
+		//Top-level right click, select teams, click on commit, select NewClass01 and click on the "+" button (new file to be committed) enter commit message "This is our first commit"
 	}
-
 }
