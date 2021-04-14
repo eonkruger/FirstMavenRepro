@@ -1,17 +1,17 @@
 package com.org.firstMavenProject;
 
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class NewClass01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//New class added to push code back
-		System.out.println("Hi team, updated my message, new branch created");
 		
-		//Top-level right click, select maven and click on update project
-		//Right click, properties, build path, add variable and select M2_Repo
-		//Commit changes to local repository then push to remote
-		//Top-level right click, select teams, click on commit, select NewClass01 and click on the "+" button (new file to be committed) enter commit message "This is our first commit"
+		System.out.println("New branch");
+		//declare and instantiate of the object and variable
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+		ChromeDriver driver = new ChromeDriver();
 		
-		//CHANGE MADE AND RECOMMITTED CHANGE TO PUSH
+		//Now commit and push the changes to github
 	}
 }
